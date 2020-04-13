@@ -17,6 +17,9 @@ export default function App() {
             <Route path="/contact">
               <Contact />
             </Route>
+            <Route path="/services">
+              <Services />
+            </Route>
             <Route path="/about">
               <About />
             </Route>
@@ -29,3 +32,7 @@ export default function App() {
     </Container>
   );
 }
+
+const Services = () => {
+  return <h1>Services</h1>;
+};
