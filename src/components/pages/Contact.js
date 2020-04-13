@@ -2,6 +2,7 @@ import React from "react";
 import { Form, FormGroup, FormControl, Button } from "react-bootstrap";
 
 const Contact = () => {
+  document.title = "Contact";
   return (
     <div>
       <h1>Contact</h1>
